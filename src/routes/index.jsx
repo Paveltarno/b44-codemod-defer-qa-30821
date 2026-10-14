@@ -15,6 +15,7 @@ function HomePage() {
       <p className="text-muted-foreground">
         Server-rendered at <time dateTime={renderedAt}>{renderedAt}</time>.
       </p>
+      <footer className="border-t pt-4 text-sm text-muted-foreground">Footer from PR B</footer>
     </main>
   );
 }
